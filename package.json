@@ -1,0 +1,12 @@
+{
+  "name": "js-curry",
+  "version": "1.0.0",
+  "description": "VS Code extension for js playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -11,13 +11,13 @@ A sample project setup to test npm packages.
 Set the directory for scurries. This can be done by
 
 1. Show buttons in notification panel. 
-2. Set using command.
+2. Set using command. ✔️
 
 ### Run
 
 1. Create Scurry
 
-Run command to create Scurry and set name.
+Run command to create Scurry and set name. It will setup a sample project in configured `scurriesLocation`.
 
 2. Install dependency
 
@@ -44,3 +44,4 @@ Print all console logs.
 
 1. Watch changes
 2. Add dependency using custom script.
+3. IntelliSense

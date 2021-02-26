@@ -44,3 +44,4 @@ Print all console logs.
 
 1. Watch changes
 2. Add dependency using custom script.
+3. IntelliSense

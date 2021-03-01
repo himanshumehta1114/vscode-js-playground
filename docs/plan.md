@@ -17,7 +17,16 @@ Set the directory for scurries. This can be done by
 
 1. Create Scurry
 
-Run command to create Scurry and set name. It will setup a sample project in configured `scurriesLocation`.
+- Run command to create Scurry and set name. ✔️
+- Create project with provided name in `scurriesLocation`
+
+Contents of project:
+
+[name]/
+    |- package.json
+    |- index.js
+    |- node_modules
+    |- .gitignore
 
 2. Install dependency
 
@@ -39,7 +48,8 @@ Print all console logs.
 1. Set directory
 2. Install dependency
 3. Run scurry
-
+4. Delete scurry
+5. Open scurry
 ## Future additions
 
 1. Watch changes

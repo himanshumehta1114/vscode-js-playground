@@ -1,2 +1,2 @@
-# js-scurry README
+# js-playground README
 

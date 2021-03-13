@@ -1,6 +1,6 @@
 {
-  "name": "js-scurry",
-  "displayName": "js-scurry",
+  "name": "js-playground",
+  "displayName": "js-playground",
   "description": "VS Code extension for js playground",
   "version": "0.0.1",
   "engines": {
@@ -10,36 +10,31 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:js-scurry.setLocation",
-    "onCommand:js-scurry.createScurry",
-    "onCommand:js-scurry.installDependency"
+    "onCommand:js-playground.setLocation",
+    "onCommand:js-playground.createPlayground"
   ],
   "main": "./extension.js",
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "JsScurry",
+      "title": "JsPlayground",
       "properties": {
-        "jsScurry.scurriesLocation": {
+        "jsPlayground.location": {
           "type": "string",
-          "default": "hello world",
-          "description": "Storage location for js scurries.",
+          "default": null,
+          "description": "Storage location for js playgrounds.",
           "scope": "machine"
         }
       }
     },
     "commands": [
       {
-        "command": "js-scurry.setLocation",
-        "title": "jsScurry: Set location for scurries"
+        "command": "js-playground.setLocation",
+        "title": "jsPlayground: Set location for playgrounds"
       },
       {
-        "command": "js-scurry.createScurry",
-        "title": "jsScurry: Create new scurry"
-      },
-      {
-        "command": "js-scurry.installDependency",
-        "title": "jsScurry: Install dependency"
+        "command": "js-playground.createPlayground",
+        "title": "jsPlayground: Create new playground"
       }
     ]
   },

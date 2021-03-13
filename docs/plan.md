@@ -1,6 +1,6 @@
 # Plan
 
-## What is Scurry
+## What is Playground
 
 A sample project setup to test npm packages.
 
@@ -15,9 +15,9 @@ Set the directory for scurries. This can be done by
 
 ### Run
 
-1. Create Scurry
+1. Create Playground
 
-- Run command to create Scurry and set name. ✔️
+- Run command to create Playground and set name. ✔️
 - Create project with provided name in `scurriesLocation`
 
 Contents of project:
@@ -47,9 +47,9 @@ Print all console logs.
 
 1. Set directory
 2. Install dependency
-3. Run scurry
-4. Delete scurry
-5. Open scurry
+3. Run playground
+4. Delete playground
+5. Open playground
 ## Future additions
 
 1. Watch changes

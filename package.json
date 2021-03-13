@@ -11,7 +11,9 @@
   ],
   "activationEvents": [
     "onCommand:js-playground.setLocation",
-    "onCommand:js-playground.createPlayground"
+    "onCommand:js-playground.createPlayground",
+    "onCommand:js-playground.openPlayground",
+    "onCommand:js-playground.deletePlayground"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -35,6 +37,14 @@
       {
         "command": "js-playground.createPlayground",
         "title": "jsPlayground: Create new playground"
+      },
+      {
+        "command": "js-playground.openPlayground",
+        "title": "jsPlayground: Open playground"
+      },
+      {
+        "command": "js-playground.deletePlayground",
+        "title": "jsPlayground: Delete playground"
       }
     ]
   },
@@ -49,10 +59,13 @@
     "@types/node": "^12.11.7",
     "@types/vscode": "^1.53.0",
     "eslint": "^7.19.0",
-    "fs-extra": "^9.1.0",
     "glob": "^7.1.6",
     "mocha": "^8.2.1",
     "typescript": "^4.1.3",
     "vscode-test": "^1.5.0"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "rimraf": "^3.0.2"
   }
 }

@@ -1,5 +1,8 @@
 const { window, workspace } = require("vscode");
 
+const getLocationConfig = async () =>
+  await workspace.getConfiguration("jsPlayground").get("location");
+
 const setLocationConfig = async (location) =>
   await workspace
     .getConfiguration("jsPlayground")
@@ -25,4 +28,4 @@ const setLocationCmd = async () => {
   }
 };
 
-module.exports = { setLocationCmd, setLocationConfig };
+module.exports = { setLocationCmd, setLocationConfig, getLocationConfig };

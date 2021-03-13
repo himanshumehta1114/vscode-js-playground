@@ -29,7 +29,7 @@ const createPlayground = async () => {
 
     if (name) {
       const destDir = path.join(location, name);
-      console.log({ destDir });
+
       // create project
       fs.mkdirSync(destDir);
 

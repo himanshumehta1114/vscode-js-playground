@@ -2,13 +2,15 @@
 
 > Instantly setup node package to test code snippets & npm packages.
 
+![The extension in-action](https://github.com/himanshumehta1114/vscode-js-playground/blob/main/js-playground.gif?raw=true)
+
 ## Motivation
 
 Whenever I had to test code, I used to create a directory, write js file & create package.json if I wanted to test npm package. This whole process was boring and took some effort. Also it was painful to maintain different test playgrounds. So this extension solves the problem.It helps you to quickly setup playground to experiment with code.
 
 ## Features
 
-- Create playground & save code for later.
+- Create playground
 - Open playground
 - Remove playground
 

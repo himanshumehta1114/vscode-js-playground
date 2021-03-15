@@ -17,6 +17,7 @@
     "url": "https://github.com/himanshumehta1114/vscode-js-playground",
     "email": "himanshumehta1114@gmail.com"
   },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.53.0"
   },

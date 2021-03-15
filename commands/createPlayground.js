@@ -30,6 +30,13 @@ const createPlayground = async () => {
     if (name) {
       const destDir = path.join(location, name);
 
+      if (fs.existsSync(destDir)) {
+        window.showErrorMessage(
+          `Playground exists, please choose different name.`
+        );
+        return;
+      }
+
       // create project
       fs.mkdirSync(destDir);
 
@@ -43,7 +50,6 @@ const createPlayground = async () => {
       });
     }
   } catch (err) {
-    console.log({ err });
     window.showInformationMessage(`Something went wrong!`);
   }
 };

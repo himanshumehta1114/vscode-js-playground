@@ -2,6 +2,7 @@ const { window, commands, Uri } = require("vscode");
 const { readdirSync } = require("fs");
 const path = require("path");
 const { getLocationConfig } = require("./setLocation");
+const { setLocationCmd } = require("./setLocation");
 
 const getDirectories = (source) =>
   readdirSync(source, { withFileTypes: true })
@@ -10,6 +11,19 @@ const getDirectories = (source) =>
 
 const openPlayground = async () => {
   const location = await getLocationConfig();
+
+  if (!location) {
+    const res = await window.showErrorMessage(
+      `Set valid location before creating playground.`,
+      { title: "Set location" }
+    );
+
+    if (res.title) {
+      await setLocationCmd();
+    }
+
+    return
+  }
 
   const playgrounds = getDirectories(location);
 

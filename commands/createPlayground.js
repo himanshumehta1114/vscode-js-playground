@@ -41,8 +41,6 @@ const createPlayground = async () => {
       await commands.executeCommand("vscode.openFolder", uri, {
         forceNewWindow: true,
       });
-
-      window.showInformationMessage(`Entered name is ${name}`);
     }
   } catch (err) {
     console.log({ err });

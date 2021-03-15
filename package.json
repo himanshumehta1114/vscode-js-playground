@@ -27,7 +27,7 @@
     "vscode": "^1.53.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [
     "onCommand:js-playground.setLocation",

@@ -3,6 +3,7 @@
   "displayName": "js-playground",
   "description": "Instantly setup node package to test code snippets & npm packages.",
   "version": "0.1.0",
+  "publisher": "himanshumehta1114",
   "keywords": [
     "code sandbox",
     "npm init",

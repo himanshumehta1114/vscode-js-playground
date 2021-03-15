@@ -1,6 +1,6 @@
 # JS-Playground
 
-> Instantly setups node package to test code snippets & npm packages.
+> Instantly setup node package to test code snippets & npm packages.
 
 ## Motivation
 

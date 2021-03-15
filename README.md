@@ -2,7 +2,7 @@
 
 > Instantly setup node package to test code snippets & npm packages.
 
-![The extension in-action](https://github.com/himanshumehta1114/vscode-js-playground/blob/main/js-playground.gif?raw=true)
+![The extension in-action](https://github.com/himanshumehta1114/vscode-js-playground/blob/master/js-playground.gif?raw=true)
 
 ## Motivation
 

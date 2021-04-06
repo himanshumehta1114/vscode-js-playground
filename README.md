@@ -6,7 +6,7 @@
 
 ## Motivation
 
-Whenever I had to test some npm package, I used to create a directory, run npm init and write code. But it was hard to maintain these scripts for me. So I built a vscode extension which exports some commands to take care of above problem.
+Whenever I had to test some npm package, I used to create a directory, run `npm init` and write code. But it was hard to maintain these scripts for me. So I built a vscode extension which exports some commands to take care of above problem.
 
 ## Features
 

@@ -6,7 +6,7 @@
 
 ## Motivation
 
-Whenever I had to test code, I used to create a directory, write js file & create package.json if I wanted to test npm package. This whole process was boring and took some effort. Also it was painful to maintain different test playgrounds. So this extension solves the problem.It helps you to quickly setup playground to experiment with code.
+Whenever I had to test some npm package, I used to create a directory, run npm init and write code. But it was hard to maintain these scripts for me. So I built a vscode extension which exports some commands to take care of above problem.
 
 ## Features
 
@@ -30,7 +30,7 @@ OR
 OR
 
 1. Open a command-line prompt
-2. Run code --install-extension himanshumehta1114.vscode-js-playground
+2. Run `code --install-extension himanshumehta1114.vscode-js-playground`
 
 ## Extension Settings
 This extension contributes the following settings:
